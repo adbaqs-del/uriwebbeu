@@ -33,7 +33,7 @@ body{
 	list-style:none;
 }
 
-.menu ul lia a {
+.menu ul li a {
 	float:left;
 	width:70px;
 	display:block;
@@ -42,7 +42,16 @@ body{
 	text-decoration:none;
 }
 
-.menu ul lia a:hover {
-	background-color:#4b88bb
+.menu ul li a:hover {
+	background-color:#4b88bb;
 	display:block;
+}
+
+.content{
+	width:90%;
+	margin:auto;
+	height:420px;
+	padding:0.1px;
+	background:#fff;
+	color:#333;
 }
